@@ -2,16 +2,24 @@ import React from "react";
 import Header from "./components/header.js";
 import {MdStars,MdStore} from "react-icons/md";
 import {HiUsers} from "react-icons/hi";
-import {Link} from "react-router-dom";
+import {Link, Route, Routes} from "react-router-dom";
 
+function WindowWidth() {
+
+  const screenSize = window.innerHeight;
+  return screenSize;
+} 
 
 function Home(){
+  
+
+
     return(
         <div>
         <Header/>
         <div className="row">
           <div className="  padd-0 col-3 left-side">
-            <div className="left-options">
+            <div className="left-options" style={{"height": WindowWidth()}}>
               <ul>
                 <li className="left-options-list options-list-active">
                   <h5><MdStars className="list-icons"/>Restaurants</h5>
