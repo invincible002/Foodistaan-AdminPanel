@@ -53,14 +53,17 @@ ul{
 
 /* ------------------Left side ------------------- */
 .left-options{
+    color: white;
     margin: 0.1rem 0rem;
     position:fixed;
     top: 4.425rem;
     padding: 10rem 0rem 10rem 2.5rem;
     background-color: #012933;
 }
+
+
 .left-options-list{
-    color: white;
+    color: white ;
     list-style: none;
     margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -69,6 +72,7 @@ ul{
 .list-icons{
     font-size: 1.5rem;
     margin-right: 1rem;
+    color: white;
 }
 .options-list-active{
     background-color: rgba(255, 255, 255, 0.199);
@@ -137,4 +141,154 @@ ul{
     padding: 0.2rem 4rem;
     border: none;
     border-radius: 8px;
+}
+/* --------------------dropdown--------------------- */
+
+.dropdown{
+    background: none;
+    color: black;
+}
+/* --------------------Restaurants--------------------- */
+.restaurants{
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+.stats-wrapper{
+    width: 80%;
+    height: 10rem ;
+    padding: 2rem 2rem 1rem 1rem;  
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 1rem;
+    border: 1px solid gray;   
+    margin-bottom: 3rem;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.stat{
+    padding-left: 2rem;
+   
+}
+.stat-header{
+    font-size: 1rem;
+}
+.stat-value{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:#FDB615 ; 
+}
+/* --------------------button--------------------- */
+
+.active-button{
+    width: 10rem;
+    margin-left: 0px;
+    color: #fff;
+    background-color: #FDB615;
+    border: none;
+    
+}
+.active-button:hover{
+    background: #FDB615;
+}
+
+
+.paused-button{
+    width: 10rem;
+    margin-left: 0px;
+    color: #FDB615;
+    border: 1px solid #FDB615;
+}
+
+.paused-button:hover{
+    color: #FDB615;
+    border: 1px solid #FDB615;
+    background: none;
+}
+
+
+/* --------------------card--------------------- */
+
+.card{
+    height: 17rem;
+    width: 22rem;
+    border: 1px solid#6A6A6A;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.pause-icon{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 5px;
+}
+.pause-icon{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 5px;
+}
+.card-stat-value{
+   font-weight: 500;
+}
+
+.restaurant-cards{
+    margin-top: 1rem;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.orders-completed{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+}
+.sales-done{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.Revenue-Change{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.revenue-change-value{
+    color: green;
+}
+.Delivery{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+}
+.Takeaway{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
 }
